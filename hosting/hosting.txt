@@ -1,0 +1,22 @@
+
+-----------------------------------------Hosting---------------------------
+
+Moving the declaration top of the respective scope is known as Hosting
+
+Types:
+
+1)Functional Hosting
+2)Variable Hosting
+
+1)Variable Hosting
+    1.By using var keyword
+        Declaration go to the top of the scope and value initialized as undefined till actual initialization thats why if we try to access before actual initialization we will get undefined
+
+        EG:console.log(a);//undefined
+            var a=10;
+
+    2.By using let and const keyword
+        Declaration goes to the top of the scope and value will not be assigned till actual initialization .If we try to access before actual initialization we will get reference error due to TDZ.
+
+2)Functional hoisting
+    Entire function go to the top of the scope thats we can call the function before declaration still it will work.
