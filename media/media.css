@@ -1,0 +1,57 @@
+body{
+    background-color: blueviolet;
+    font-size: 2rem;
+}
+/* @media (max-width:500px)
+{
+    body{
+        background-color: green;
+    }
+    
+}
+@media (min-width:501px) and (max-width:1000px)
+{
+    body{
+        background-color: red;
+    }
+}
+div{
+    display: flex;
+    gap: 20px;
+    background-color: orange;
+}
+@media (min-width:501px) and (max-width:1000px)
+{
+    div{
+        background-color:yellow;
+        
+    }
+}
+@media (min-width:1001px)
+{
+    div{
+        background-color: aqua;
+        width: 500px;
+        justify-content: center;
+
+    }
+    
+} */
+
+
+/*ABSOLUTE UNITS:*/
+/*------------------------------------------*/
+html{
+    font-size: 2rem;
+}
+h1{
+    font-size: 2rem;
+}
+/*rem is root based 
+//em is parent based*/
+
+
+
+
+
+/*RELATIVE UNITS:*/
