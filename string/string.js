@@ -8,6 +8,40 @@ console.log(str3);
 let str4="                        iam from space string        ";
 console.log(str4.concat("hi================="));
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 console.log(str4+"---------"+str4.length);
 
 console.log(str4.trim()+"-------"+str4.trim().length);//remove space both front and backside
