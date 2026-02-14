@@ -16,6 +16,9 @@ for(let i=0;i<ss.length-1;i++)
     }
 }
 console.log(s.replaceAll('a','@'));
+let s4=ss.join(" ");
+console.log(s4);
+
 
 
 
