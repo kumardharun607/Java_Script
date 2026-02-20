@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .outer{
+            height: 100vh;
+            background: linear-gradient(to right,yellow,red,yellow);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 60px;
+     
+        }
+        .outer>h1{
+            color: rgb(157, 255, 0);
+            text-shadow: 20px 20px 20px black;
+        }
+        .inner{
+            background: linear-gradient(to top,rgba(225, 0, 255, 0.767),rgb(241, 157, 171),rgba(225, 0, 255, 0.767));
+            height: 60vh;
+            width: 30vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+           
+        }
+        .inner>p{
+            color: aliceblue;
+            text-shadow: 20px 30px 20px black;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <h1>...Dashboard...</h1>
+        <hr>
+        <div class="inner">
+            <p>ID</p>
+            <div class="fields"><p>id</p></div>
+            <p>FIRST NAME</p>
+            <div class="fields"><p>fname</p></div>
+            <p>LAST NAME</p>
+            <div class="fields"><p>lname</p></div>
+            <p>EMAIL</p>
+            <div class="fields"><p>email</p></div>
+            <p>PASSWORD</p>
+            <div class="fields"><p>password</p></div>
+            <p>PHONE NUMBER</p>
+            <div class="fields"><p>pho</p></div>
+        </div>
+    </div>
+</body>
+</html>

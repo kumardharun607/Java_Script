@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.section{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child{
+    background-color: brown;
+    height: 75vh;
+    width: 75vw;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 25px;
+    box-shadow: 20px 20px 20px green;
+}
