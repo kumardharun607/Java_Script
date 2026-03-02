@@ -27,6 +27,17 @@ let a2=document.querySelectorAll("a")[1];
 a2.innerHTML="Updated html tag";
 
 
+
+
+
+
+
+
+
+
+
+
+
 setInterval(()=>{
     let titletag=document.querySelectorAll("title")[0];
     if(titletag.innerHTML=="Update")
